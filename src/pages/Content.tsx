@@ -1,8 +1,11 @@
+import {Dtype} from './types';
 
-
-const Content = () => {
+const Content = ({name,type}:Dtype) => {
   return (
-    <div></div>
+    <>
+      <h1>{name}</h1>
+      <h3>{type}</h3>
+    </>
   )
 }
 

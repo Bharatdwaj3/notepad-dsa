@@ -1,6 +1,6 @@
 import {Ctype} from './types'
 
-const Header = ({name,type}:Ctype) => {
+const Hero = ({name,type}:Ctype) => {
   return (
     <>
         <h1>{name}</h1>
@@ -9,4 +9,4 @@ const Header = ({name,type}:Ctype) => {
   )
 }
 
-export default Header
+export default Hero

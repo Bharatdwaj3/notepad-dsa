@@ -1,10 +1,11 @@
+import {Ctype} from './types'
 
-
-const Footer = () => {
+const Footer = ({name, type}:Ctype) => {
   return (
-    <div>
-        
-    </div>
+    <>
+        <h1>{name}</h1>
+        <h3>{type}</h3>
+    </>
   )
 }
 

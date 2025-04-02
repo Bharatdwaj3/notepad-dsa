@@ -1,9 +1,12 @@
-type Props = {}
+import {Dtype} from './types'
 
-const Content = (props: Props) => {
+const About = ({name, type}: Dtype) => {
   return (
-    <div></div>
+    <>
+      <h1>{name}</h1>
+      <h3>{type}</h3>
+    </>
   )
 }
 
-export default Content
+export default About

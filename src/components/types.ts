@@ -1,5 +1,6 @@
-import Footer from './Footer'
-import Header from './Header'
-import Navbar from './Navbar'
+type Ctype={
+    name:string;
+    type:string;
+};
 
-export {Footer, Header, Navbar}
+export type {Ctype};
