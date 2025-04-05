@@ -1,16 +1,20 @@
 import { Header,Navbar,Hero,Footer } from '../components';
-import {Dtype} from './types';
+//import {Dtype} from './types';
 
-const Home = ({name,type}:Dtype) => {
+const Home = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">{name}</h1>
-      <h3>{type}</h3>
-        
+      <div className="relative m-0 h-[1900px] w-screen bg-amber-500">
+       
         <Header name="Header" type="PageSection"/>     
         <Navbar name="Navabr" type="PageSection"/>
         <Hero name="Hero" type="PageSection"/>
         <Footer name="Footer" type="PageSection"/> 
+
+      </div>
+      
+        
+        
     </>
   )
 }
