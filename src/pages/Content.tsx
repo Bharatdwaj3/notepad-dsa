@@ -1,12 +1,22 @@
-import {Dtype} from './types';
+import { Header,Navbar,Hero,Footer } from '../components';
 
-const Content = ({name,type}:Dtype) => {
+
+const Contents = () => {
   return (
     <>
-      <h1>{name}</h1>
-      <h3>{type}</h3>
+      <div className="relative m-0 h-[1900px] w-screen bg-amber-500">
+       
+        <Header name="Header" type="PageSection"/>     
+        <Navbar/>
+        <Hero name="Hero" type="PageSection"/>
+        <Footer name="Footer" type="PageSection"/> 
+
+      </div>
+      
+        
+        
     </>
   )
 }
 
-export default Content
+export default Contents

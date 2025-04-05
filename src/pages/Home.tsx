@@ -1,5 +1,5 @@
 import { Header,Navbar,Hero,Footer } from '../components';
-//import {Dtype} from './types';
+
 
 const Home = () => {
   return (
