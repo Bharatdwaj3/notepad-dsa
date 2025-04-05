@@ -7,7 +7,7 @@ const Home = () => {
       <div className="relative m-0 h-[1900px] w-screen bg-amber-500">
        
         <Header name="Header" type="PageSection"/>     
-        <Navbar name="Navabr" type="PageSection"/>
+        <Navbar/>
         <Hero name="Hero" type="PageSection"/>
         <Footer name="Footer" type="PageSection"/> 
 
