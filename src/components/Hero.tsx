@@ -44,13 +44,58 @@ You’re capable, resourceful, and doing better than you think.
                 </div>
               </div>
             </div>
-            <div className='mt-24 grid grid-cols-2 grid-rows-2 gap-6 p-8 h-[800px] w-[1360px] '>
-                <div className='p-8 bg-amber-300 rounded-2xl'>AGrid</div>
-                <div className='p-8 bg-amber-300 rounded-2xl'>BGrid</div>
-                <div className='p-8 bg-amber-300 rounded-2xl'>CGrid</div>
-                <div className='p-8 bg-amber-300 rounded-2xl'>DGrid</div>
+             
+            <div className='ml-12 mt-24 grid grid-cols-2 grid-rows-2 gap-6 p-8 h-[800px] w-[1360px] '>
+
+              
+                <div className='p-8 bg-amber-300 rounded-2xl'>
+                    <h3 className="font-bold text-gray-950 text-3xl">Developers & Freelancers</h3>
+                    <p className="font-stretch-50% italic text-gray-950 text-l mt-24">Software Developers – managing code snippets, project tasks, and version control
+
+Web Designers – organizing assets, wireframes, and feedback notes
+
+Freelance Creatives – tracking multiple clients, invoices, and deadlines
+
+Product Managers – roadmaps, team tasks, and meeting notes
+
+Virtual Assistants – handling daily schedules, reminders, and client communication</p>
+                </div>
+                <div className='p-8 bg-amber-300 rounded-2xl'>
+                    <h3 className="font-bold text-gray-950 text-3xl">Writers & Journalists</h3>
+                    <p className="font-stretch-50% italic text-gray-950 text-l mt-24">
+                      <ul>
+                        <li>Bloggers – editorial calendars, topic brainstorming, publishing checklists</li>
+                        <li>Journalists – managing interviews, deadlines, and article drafts</li>
+                        <li>Content Marketers – scheduling posts, campaign planning, and team feedback</li>
+                      </ul>
+                    </p>
+                </div>
+                <div className='p-8 bg-amber-300 rounded-2xl'>
+                    <h3 className="font-bold text-gray-950 text-3xl">Enthusiasts & Students</h3>
+                    <p className="font-stretch-50% italic text-gray-950 text-l mt-24">
+                      <ul>
+                        <li>Students – lecture notes, assignment tracking, exam revision schedules</li>
+                        <li>Self-learners – course progress, concept mapping, focused study timers</li>
+                        <li>Tech Hobbyists – documenting code, saving tools, tracking projects</li>
+                        <li>Gamers & Creators – organizing builds, video scripts, game dev logs</li>
+                      </ul>
+                    </p>
+                </div>
+                <div className='p-8 bg-amber-300 rounded-2xl'>
+                    <h3 className="font-bold text-gray-950 text-3xl">Wellness Folk</h3>
+                    <p className="font-stretch-50% italic text-gray-950 text-l mt-24">
+                      <ul>
+                        <li>Therapists – session notes, techniques, self-care trackers</li>
+                        <li>Life Coaches – client goals, progress logs, journaling tools</li>
+                        <li>Fitness Coaches – workout plans, meal logs, progress tracking</li>
+                        <li>Mindfulness Practitioners – reflection journals, breathing exercises, mood logs</li>
+                      </ul>
+                    </p>
+                </div>
             </div>
-            <div className='mt-32 p-8 h-[900px] w-[1360px] rounded-xl bg-amber-200'></div>
+            <div className='mt-32 p-8 h-[900px] w-[1360px] rounded-xl bg-amber-200'>
+
+            </div>
         </div>
     </>
   )

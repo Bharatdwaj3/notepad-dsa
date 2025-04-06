@@ -1,5 +1,5 @@
-import About from './About';
+import Notes from './Notes';
 import Home from './Home'
-import Content from './Content'
+import Community from './Community'
 
-export {About,Home,Content}
+export {Notes,Home,Community}
