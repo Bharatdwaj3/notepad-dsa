@@ -5,7 +5,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 const Footer = () => {
   return (
     <>
-        <div className='p-16 w-full h-[500px] bg-gradient-to-t from-blue-700 to-slate-600 absolute bottom-0'>
+        <div className='p-16 w-full h-[500px] bg-gradient-to-t from-blue-100 to-slate-600 absolute bottom-0'>
           <div className=" w-[1200px] h-24 absolute inset-x-0 top-0 ml-20  border-white"></div>
          <div className=" w-[1200px] h-80 absolute inset-20  border-white">
               <div className=" h-full grid grid-flow-col grid-rows-1 grid-cols-6 gap-0">

@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <>
-        <div className=' h-[900px] w-screen bg-linear-to-r from-cyan-500 to-blue-100 p-16'>
+        <div className=' h-[900px] w-screen bg-linear-to-r from-sky-200 to-slate-100 p-16'>
          
           <div className='h-80 w-80 relative'>
               <div className="h-30 w-80  absolute top-0">

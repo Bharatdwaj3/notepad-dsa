@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <>
-       <div className='p-16 h-[3200px] w-screen absolute top-115 bg-lime-300'>
+       <div className='p-16 h-[2000px] w-screen absolute top-115 '>
           
             <div className='mt-32 p-8 h-[900px] w-[1360px] rounded-xl bg-amber-200 flex flex-row'>
               <div className='h-[800px] w-2/3  flex flex-col'>
@@ -48,7 +48,7 @@ You’re capable, resourceful, and doing better than you think.
             <div className='ml-12 mt-24 grid grid-cols-2 grid-rows-2 gap-6 p-8 h-[800px] w-[1360px] '>
 
               
-                <div className='p-8 bg-amber-300 rounded-2xl'>
+                <div className='p-8 bg-amber-200 rounded-2xl'>
                     <h3 className="font-bold text-gray-950 text-3xl">Developers & Freelancers</h3>
                     <p className="font-stretch-50% italic text-gray-950 text-l mt-24">Software Developers – managing code snippets, project tasks, and version control
 
@@ -60,7 +60,7 @@ Product Managers – roadmaps, team tasks, and meeting notes
 
 Virtual Assistants – handling daily schedules, reminders, and client communication</p>
                 </div>
-                <div className='p-8 bg-amber-300 rounded-2xl'>
+                <div className='p-8 bg-amber-200 rounded-2xl'>
                     <h3 className="font-bold text-gray-950 text-3xl">Writers & Journalists</h3>
                     <p className="font-stretch-50% italic text-gray-950 text-l mt-24">
                       <ul>
@@ -70,7 +70,7 @@ Virtual Assistants – handling daily schedules, reminders, and client communica
                       </ul>
                     </p>
                 </div>
-                <div className='p-8 bg-amber-300 rounded-2xl'>
+                <div className='p-8 bg-amber-200 rounded-2xl'>
                     <h3 className="font-bold text-gray-950 text-3xl">Enthusiasts & Students</h3>
                     <p className="font-stretch-50% italic text-gray-950 text-l mt-24">
                       <ul>
@@ -81,7 +81,7 @@ Virtual Assistants – handling daily schedules, reminders, and client communica
                       </ul>
                     </p>
                 </div>
-                <div className='p-8 bg-amber-300 rounded-2xl'>
+                <div className='p-8 bg-amber-200 rounded-2xl'>
                     <h3 className="font-bold text-gray-950 text-3xl">Wellness Folk</h3>
                     <p className="font-stretch-50% italic text-gray-950 text-l mt-24">
                       <ul>
@@ -93,9 +93,7 @@ Virtual Assistants – handling daily schedules, reminders, and client communica
                     </p>
                 </div>
             </div>
-            <div className='mt-32 p-8 h-[900px] w-[1360px] rounded-xl bg-amber-200'>
-
-            </div>
+            
         </div>
     </>
   )
