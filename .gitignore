@@ -11,7 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
-
+*.git
+*.gitignore
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -19,6 +20,8 @@ dist-ssr
 .DS_Store
 *.suo
 *.ntvs*
+
+
 *.njsproj
 *.sln
 *.sw?

@@ -1,11 +1,18 @@
-import {Ctype} from './types'
+//import {Ctype} from './types'
 
-const Header = ({name,type}:Ctype) => {
+const Header = () => {
   return (
     <>
-        <div className='h-96 w-screen bg-blue-300 p-16'>
-          <h1>{name}</h1>
-          <h3>{type}</h3>
+        <div className=' h-[900px] w-screen bg-linear-to-r from-cyan-500 to-blue-100 p-16'>
+         
+          <div className='h-80 w-80 relative'>
+              <div className="h-30 w-80  absolute top-0">
+                <h1 className="mt-10 inset-x-0 -left-4 text-purple-900">FocusFlow</h1>
+              </div>
+              <div className="h-52 w-[700px]  absolute bottom-0">
+                <p className="ml-20 font-sans italic text-blue-900">Stay on top of tasks and unlock your potential with FocusFlow’s clean interface and smart features for effortless productivity.</p>
+              </div>
+          </div>
         </div>
     </>
   )
