@@ -4,12 +4,21 @@ import { Navbar,SidePanel,Footer } from '../components';
 const About = () => {
   return (
     <>
-      <div className="relative m-0 h-[3000px] w-screen bg-sky-100">
-          
+      <div className="relative  h-[3500px] w-screen bg-sky-100">
         <Navbar/>
-        <SidePanel/>
-        <Footer/> 
+        <div className="absolute top-[590px] h-[2500px] w-[1520px] bg-sky-300">
+
+
+
+          <SidePanel/>
+        
+
+        </div>
+        <div className='absolute bottom-0 inset-x-0'>
+          <Footer />
+        </div>
       </div>
+      
     </>
   )
 }

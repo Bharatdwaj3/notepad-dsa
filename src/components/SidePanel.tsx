@@ -9,13 +9,13 @@ import GroupSharpIcon from '@mui/icons-material/GroupSharp';
 const SidePanel = () => {
   return (
     <>
-      <div className="bg-amber-600 w-96 h-full relative">
+      <div className="bg-amber-600 w-96 h-[2100px] relative">
         <div className="bg-slate-800 w-96 h-full  absolute">
           <div className="flex flex-col">
 
             <div className="bg-linear-to-b from-cyan-500 to-blue-500 h-40 w-full mb-4 relative">
               <div className=" size-40 left-0 absolute border rounded-full">
-                <img src="src\assets\cat.png" className="size-full object-cover overflow-hidden" alt="Bruh!!!" />
+                <img src="src\assets\image.png"  className="w-full h-full object-cover rounded-full"  alt="Bruh!!!" />
               </div>
               <div className="  h-full w-2/3 right-0 absolute flex flex-col">
                 <div className="h-1/3 w-full top-0 absolute">

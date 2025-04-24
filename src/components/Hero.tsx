@@ -1,5 +1,3 @@
-//import {Ctype} from './types'
-
 const Hero = () => {
   return (
     <>
