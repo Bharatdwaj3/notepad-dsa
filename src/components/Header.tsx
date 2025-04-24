@@ -1,4 +1,4 @@
-//import {Ctype} from './types'
+
 
 const Header = () => {
   return (
