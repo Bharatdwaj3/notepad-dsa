@@ -8,7 +8,7 @@ const Contents = () => {
        
         <Header/>     
         <Navbar/>
-        <Hero/>
+        <Hero_Community/>
         <Footer/> 
 
       </div>
